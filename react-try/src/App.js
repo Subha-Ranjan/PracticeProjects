@@ -1,9 +1,18 @@
 import "./App.css";
+import QuizAlias from "./QuizMCQ";
+import AnotherQuiz from "./AnotherQuiz";
+import Test from "./Test";
+import New from "./New";
+import Info from "./Info";
 
 function App() {
   return (
     <div className="App">
-      <h1> MY basic React App with MUI insstalled.</h1>
+      <QuizAlias />
+      <AnotherQuiz />
+      <Test />
+      <New />
+      <Info />
     </div>
   );
 }
